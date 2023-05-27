@@ -25,7 +25,7 @@ void main() async {
   NotificationSettings settings = await messaging.requestPermission();
 
   final fcmToken = await messaging.getToken();
-  print("This is $fcmToken");
+  print("Thiks is $fcmToken");
 
   ZegoUIKitPrebuiltCallInvitationService().setNavigatorKey(navigatorKey);
 
